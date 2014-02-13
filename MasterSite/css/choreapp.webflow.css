@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 400;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-family:'Open Sans', sans-serif;
+  color: #7370ff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.topnav {
+  padding-top: 19px;
+  padding-bottom: 18px;
+  background-color: #8c00b3;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+.topnav.w--open {
+  background-color: #ae6dcf;
+}
+.topnavopen {
+  background-color: #ae6dcf;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+.topnavopen.w--open {
+  background-color: #d7a0f2;
+}
+.menucontainer {
+  background-color: #8c00b3;
+}
+.user {
+  position: static;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  border: 20px solid #f08811;
+  border-radius: 200px;
+}
+@media (max-width: 991px) {
+  .user {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+  h3 {
+    font-family:'Open Sans', sans-serif;
+    color: #7370ff;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+  }
+  h4 {
+    margin-left: 0px;
+    font-family:'Open Sans', sans-serif;
+    color: #167500;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  h6 {
+    font-family:'Open Sans', sans-serif;
+    color: #c70e0e;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+  }
+  .topnav {
+    margin-top: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .user {
+    margin: 10px 5px;
+    border-width: 10px;
+  }
+  .smallcircle {
+    margin-left: 125px;
+    border: 3px solid #6929ff;
+    border-radius: 40px;
+  }
+}
