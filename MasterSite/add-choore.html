@@ -4,7 +4,7 @@
 <html data-wf-site="52fbf7e80934384d6a0010bb">
 <head>
   <meta charset="utf-8">
-  <title>ChoreApp - Scores</title>
+  <title>ChoreApp - Add Choore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -27,7 +27,7 @@
   <div>
     <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
       <div class="w-container">
-        <a class="w-nav-brand" href="home-new-chore-deleted-litterbox.html">
+        <a class="w-nav-brand" href="home.html">
           <img class="chorehome" src="images/icon_19395.png" width="50" height="50" alt="52fc5c8484f384267e000308_icon_19395.png">
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.html">Home</a><a class="w-nav-link topnavopen" href="add-choore.html">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.html">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.html">User Profile</a>
@@ -43,19 +43,36 @@
       </div>
     </div>
   </div>
-  <div>
-    <h2>Scores</h2>
-    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
+  <img class="addchoreimage" src="images/icon_17666.png" width="150" height="150" alt="52fd51bf91b0b68d21000c9a_icon_17666.png">
+  <div class="w-form">
+    <form class="w-clearfix choreform" name="email-form" data-name="Email Form">
+      <label class="chorefieldtitle" for="name">Chore:</label>
+      <select class="w-select dropdown" name="dropdown">
+        <option value="">Select chore...</option>
+        <option value="First">Vacuum</option>
+        <option value="Second">Dishes</option>
+        <option value="Third">Mop</option>
+        <option value="">Broom</option>
+        <option value="">Mow Lawn</option>
+        <option value="">Litter Box</option>
+        <option value="">Clean Toilet</option>
+        <option value="">Clean Bathroom</option>
+        <option value="">Water Plants</option>
+      </select>
+      <select class="w-select dropdown" name="dropdown">
+        <option value="">Select person to do chore...</option>
+        <option value="First">You</option>
+        <option value="Second">Vanessa</option>
+        <option value="Third">Terrance</option>
+      </select><a class="button chorebutton add-chore-button" href="chore-added.html">Add Chore</a>
+    </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
   </div>
-  <h3>Robert - 1,520 pts</h3>
-  <div>
-    <img class="smallcircle" src="images/woman.jpg" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
-  </div>
-  <h4>Vanessa - 1,400 pts</h4>
-  <div>
-    <img class="smallcircle" src="images/images.jpg" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg">
-  </div>
-  <h4>Terrance - 820 pts</h4>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

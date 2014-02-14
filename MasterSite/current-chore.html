@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Feb 14 2014 03:45:30 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Feb 14 2014 03:45:29 GMT+0000 (UTC) -->
 <html data-wf-site="52fbf7e80934384d6a0010bb">
 <head>
   <meta charset="utf-8">
-  <title>ChoreApp - Scores</title>
+  <title>ChoreApp - Current Chore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -27,7 +27,7 @@
   <div>
     <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
       <div class="w-container">
-        <a class="w-nav-brand" href="home-new-chore-deleted-litterbox.html">
+        <a class="w-nav-brand" href="home.html">
           <img class="chorehome" src="images/icon_19395.png" width="50" height="50" alt="52fc5c8484f384267e000308_icon_19395.png">
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.html">Home</a><a class="w-nav-link topnavopen" href="add-choore.html">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.html">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.html">User Profile</a>
@@ -43,19 +43,32 @@
       </div>
     </div>
   </div>
-  <div>
-    <h2>Scores</h2>
-    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
+  <h2>Current chores</h2>
+  <div class="w-container">
+    <h3>Dishes</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_27380.png" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">120 pts.</a>
+    <img class="profilepictureforcurrent hoverZoomLink" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
-  <h3>Robert - 1,520 pts</h3>
-  <div>
-    <img class="smallcircle" src="images/woman.jpg" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
+  <div class="w-container">
+    <h3>Litter box</h3><a class="button delete" href="chore-delete-confirmation.html">X</a>
+    <img class="choreimage" src="images/icon_18994.png" width="150" alt="52fd3f6084f384267e0013e2_icon_18994.png">
+    <img class="profilepictureforcurrent user3" src="images/woman.jpg" width="50" height="50" alt="52fc7156739fe3c30f00033f_woman.jpg"><a class="button chore-points" href="#">200 pts.</a>
   </div>
-  <h4>Vanessa - 1,400 pts</h4>
-  <div>
-    <img class="smallcircle" src="images/images.jpg" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg">
+  <div class="w-container">
+    <h3>Mow Lawn</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_12106.png" width="150" alt="52fd72f091b0b68d21000df7_icon_12106.png"><a class="button chore-points" href="#">220 pts.</a>
+    <img class="profilepictureforcurrent" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
-  <h4>Terrance - 820 pts</h4>
+  <div class="w-container">
+    <h3>Trash</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_304.png" width="150" height="150" alt="52fd3f2684f384267e0013df_icon_304.png">
+    <img class="profilepictureforcurrent user2" src="images/images.jpg" width="50" height="50" alt="52fc715f739fe3c30f000341_images.jpg"><a class="button chore-points" href="#">100 pts.</a>
+  </div>
+  <div class="w-container">
+    <h3>Vacuum</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_25405.png" width="150" alt="52fd2d9191b0b68d2100099d_icon_25405.png">
+    <img class="profilepictureforcurrent" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg"><a class="button chore-points" href="#">180 pts.</a>
+  </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

@@ -4,7 +4,7 @@
 <html data-wf-site="52fbf7e80934384d6a0010bb">
 <head>
   <meta charset="utf-8">
-  <title>ChoreApp - Log in</title>
+  <title>ChoreApp - Create Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -24,12 +24,15 @@
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
 </head>
 <body class="firstpages">
-  <img class="loginpicture" src="images/icon_19395.png" width="150" alt="52fc5c8484f384267e000308_icon_19395.png">
-  <h1>Chores</h1>
+  <div>
+    <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400"></div>
+  </div>
+  <h2>Create a Home</h2>
+  <img class="homepicture" src="images/icon_293.png" width="159" height="150" alt="52fc651f84f384267e00034f_icon_293.png">
   <div class="w-form">
-    <form name="email-form" data-name="Email Form" data-redirect="/home">
-      <input class="w-input forminputs" type="text" placeholder="Email" name="email" data-name="Email"></input>
-      <input class="w-input forminputs" type="email" placeholder="Password" name="password" data-name="Password"></input><a class="button loginbutton" href="home.html">login</a><a class="button signupbutton" href="sign-up.html">New User?</a>
+    <form name="email-form" data-name="Email Form">
+      <input class="w-input forminputs" type="text" placeholder="Home Name" name="home-name" data-name="Home Name"></input>
+      <input class="w-input forminputs" type="password" placeholder="Password" name="password" data-name="Password"></input><a class="button" href="invite-to-household.html">Create Home</a>
     </form>
     <div class="w-form-done">
       <p>Thank you! Your submission has been received!</p>
@@ -37,7 +40,7 @@
     <div class="w-form-fail">
       <p>Oops! Something went wrong while submitting the form :(</p>
     </div>
-  </div><a class="forgotlink" href="forgot-password.html">Forgot your password? Click here.</a>
+  </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>
