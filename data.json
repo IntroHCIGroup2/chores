@@ -101,7 +101,7 @@
 
 		},
         {
-			"name": "Vacuuum",    
+			"name": "Vacuum",    
         "imageURL": "images/icon_25405.png",
             "roommate": "images/man.jpg",
         "points": 100
