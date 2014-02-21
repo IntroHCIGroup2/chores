@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Fri Feb 14 2014 02:13:30 GMT+0000 (UTC) -->
+<html data-wf-site="52fbf7e80934384d6a0010bb">
+<head>
+  <meta charset="utf-8">
+  <title>ChoreApp - UserProfile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/choreapp.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,400,600,700,800","Montserrat:400,700"]
+      }
+    });
+  </script>
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+    <div>
+    <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container">
+        <a class="w-nav-brand" href="home.handlebars">
+          <img class="chorehome" src="images/icon_19395.png" width="50" height="50" alt="52fc5c8484f384267e000308_icon_19395.png">
+        </a>
+        <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.handlebars">Home</a><a class="w-nav-link topnavopen" href="add-choore.handlebars">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.handlebars">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.handlebars">User Profile</a>
+          <a
+          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
+        </nav>
+        <div class="w-nav-button topnav">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+        <a class="w-inline-block quickadd" href="add-choore.handlebars">
+          <img src="images/icon_17666.png" width="25" height="25" alt="52fd51bf91b0b68d21000c9a_icon_17666.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w-clearfix">
+    <h2>User Profile</h2>
+    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
+  </div>
+  <h3>Robert - 1,520 pts</h3>
+  <div>
+    <img class="smallcircle chorepictures" src="images/icon_25405.png" width="75" height="75" alt="52fd2d9191b0b68d2100099d_icon_25405.png">
+  </div>
+  <h4>Vacuum &nbsp;- 100 pts</h4>
+  <div>
+    <img class="smallcircle chorepictures" src="images/icon_27380.png" width="75" height="75" alt="52fd2ddb91b0b68d2100099e_icon_27380.png">
+  </div>
+  <h4>Wash Dishes - 120 pts</h4>
+  <img class="smallcircle chorepictures" src="images/icon_12106.png" width="75" height="75" alt="52fd72f091b0b68d21000df7_icon_12106.png">
+  <h4>Mow Lawn - 220 pts</h4>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+</body>
+</html>

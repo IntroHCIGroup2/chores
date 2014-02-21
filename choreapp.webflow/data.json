@@ -1,0 +1,58 @@
+{
+    "chores": [
+		{
+			"name": "Vacuum",
+        "imageURL": "images/icon_25405.png"
+
+		},
+		{
+			"name": "Dishes",    
+        "imageURL":"images/icon_27380.png"	
+
+		},
+        {
+			"name": "Mop",    
+        "imageURL":"images/icon_19395.png"	
+
+		},
+        {
+			"name": "Broom",    
+        "imageURL":"images/icon_19395.png"	
+
+		},
+        {
+			"name": "Litter Box",    
+        "imageURL":"images/icon_18994.png"	
+
+		},
+        {
+			"name": "Clean Toilet",    
+        "imageURL":"images/icon_19395.png"	
+
+		},
+        {
+			"name": "Clean Bathroom",    
+        "imageURL":"images/icon_19395.png"	
+
+		},
+        {
+			"name": "Water Plants",    
+        "imageURL":"images/icon_19395.png"	
+
+		}
+    ],
+	"roommates": [
+        {
+            "roommate": "images/woman.jpg",
+			"chore": "Clean Litterbox",
+        "imageURL": "images/icon_18994.png"
+
+		},
+		{
+			 "roommate": "images/images.jpg",
+			"chore": "Take Out Trash",
+        "imageURL": "images/icon_304.png"
+
+		}
+    ]
+}

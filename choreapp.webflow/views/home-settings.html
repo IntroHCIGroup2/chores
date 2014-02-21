@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Fri Feb 14 2014 02:13:29 GMT+0000 (UTC) -->
+<html data-wf-site="52fbf7e80934384d6a0010bb">
+<head>
+  <meta charset="utf-8">
+  <title>ChoreApp - Home Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/choreapp.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,400,600,700,800","Montserrat:400,700"]
+      }
+    });
+  </script>
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div>
+    <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container">
+        <a class="w-nav-brand" href="home.html">
+          <img class="chorehome" src="images/icon_19395.png" width="44" alt="52fc5c8484f384267e000308_icon_19395.png">
+        </a>
+        <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="#">Home</a><a class="w-nav-link topnavopen" href="#">Add Chore</a><a class="w-nav-link topnavopen" href="#">Current Chores</a><a class="w-nav-link topnavopen" href="index.html">User Profile</a><a class="w-nav-link topnavopen"
+          href="scores.html">Scores</a><a class="w-nav-link topnav topnavopen" href="#">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
+        </nav>
+        <div class="w-nav-button topnav">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+        <a class="w-inline-block quickadd" href="add-choore.html">
+          <img src="images/icon_17666.png" width="25" height="25" alt="52fd51bf91b0b68d21000c9a_icon_17666.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <a class="w-inline-block" href="settings.html">
+    <img class="backbutton" src="images/icon_8301.png" alt="52fd41ae84f384267e001436_icon_8301.png">
+  </a>
+  <div>
+    <h2>Home Settings</h2>
+  </div>
+  <div class="w-form">
+    <form class="choreform" name="email-form" data-name="Email Form">
+      <label class="homesettingslabel" for="name">Old Password:</label>
+      <input class="w-input forminputs" type="text" placeholder="Enter old home password" name="old-home-password" data-name="old home password"></input>
+      <label class="homesettingslabel" for="email">New Password:</label>
+      <input class="w-input forminputs" type="email" placeholder="Enter new home password" name="new-password" data-name="New password"></input>
+    </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
+  </div><a class="button loginbutton app-buttons" href="#">Change password</a>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+</body>
+</html>
