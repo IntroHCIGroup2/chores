@@ -9,10 +9,12 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var add = require('./routes/add');
 var home = require('./routes/home');
 var scores = require('./routes/scores');
 var addchore = require('./routes/add-choore');
 var currentchore = require('./routes/current-chore');
+var chorecompleted = require('./routes/chore-completed');
 var userprofile = require('./routes/userprofile');
 var settings = require('./routes/settings');
 var signup = require('./routes/sign-up');
@@ -71,6 +73,8 @@ app.get('/home-settings.handlebars', homesettings.view);
 app.get('/password.handlebars', password.view);
 app.get('/about.handlebars', about.view);
 app.get('/help.handlebars', help.view);
+app.get('/chore-completed.handlebars', chorecompleted.view);
+app.get('/add', add.addChore);
 
 // Example route
 // app.get('/users', user.list);

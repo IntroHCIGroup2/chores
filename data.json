@@ -1,4 +1,23 @@
 {
+    "user": "Robert",
+    "userpoints": 1520,
+    "userpicture": "images/man.jpg",
+    "userchores":[
+        {
+            
+			"name": "Vacuum",
+            "imageURL": "images/icon_25405.png",
+            "points": 100
+
+		},
+		{
+			"name": "Dishes",    
+        "imageURL":"images/icon_27380.png",
+            "points": 120
+
+		}
+        
+    ],
     "chores": [
 		{
 			"name": "Vacuum",
@@ -44,15 +63,50 @@
 	"roommates": [
         {
             "roommate": "images/woman.jpg",
+            "name": "Vanessa",
 			"chore": "Clean Litterbox",
-        "imageURL": "images/icon_18994.png"
+        "imageURL": "images/icon_18994.png",
+            "points": 500
 
 		},
 		{
 			 "roommate": "images/images.jpg",
+            "name": "Terrance",
 			"chore": "Take Out Trash",
-        "imageURL": "images/icon_304.png"
+        "imageURL": "images/icon_304.png",
+            "points": 1430
 
 		}
+    ],
+    "currentchores": [
+        {
+			"name": "Dishes",    
+        "imageURL":"images/icon_27380.png",
+        "roommate": "images/man.jpg",
+        "points": 120
+
+		},
+        {
+			"name": "Litterbox",    
+        "imageURL": "images/icon_18994.png",
+            "roommate": "images/woman.jpg",
+        "points": 200
+
+		},
+        {
+			"name": "Trash",    
+        "imageURL": "images/icon_304.png",
+            "roommate": "images/images.jpg",
+        "points": 100
+
+		},
+        {
+			"name": "Vacuuum",    
+        "imageURL": "images/icon_25405.png",
+            "roommate": "images/man.jpg",
+        "points": 100
+
+		}
+       
     ]
 }

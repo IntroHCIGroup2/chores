@@ -45,17 +45,17 @@
   </div>
   <div>
     <h2>Scores</h2>
-    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
+    <img class="user" src="{{userpicture}}" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
-  <h3>Robert - 1,520 pts</h3>
+  <h3>{{user}} - {{userpoints}} pts</h3>
   <div>
-    <img class="smallcircle" src="images/woman.jpg" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
+      {{#each roommates}}
+    <img class="smallcircle" src="{{roommate}}" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
   </div>
-  <h4>Vanessa - 1,400 pts</h4>
+  <h4> {{name}} - {{points}} pts</h4>
+    {{/each}}
   <div>
-    <img class="smallcircle" src="images/images.jpg" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg">
-  </div>
-  <h4>Terrance - 820 pts</h4>
+   
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

@@ -44,35 +44,16 @@
     </div>
   </div>
   <img class="addchoreimage" src="images/icon_17666.png" width="150" height="150" alt="52fd51bf91b0b68d21000c9a_icon_17666.png">
-  <div class="w-form">
-    <form class="w-clearfix choreform" name="email-form" data-name="Email Form">
-      <label class="chorefieldtitle" for="name">Chore:</label>
-      <select class="w-select dropdown" name="dropdown">
-        <option value="">Select chore...</option>
-        <option value="First">Vacuum</option>
-        <option value="Second">Dishes</option>
-        <option value="Third">Mop</option>
-        <option value="">Broom</option>
-        <option value="">Mow Lawn</option>
-        <option value="">Litter Box</option>
-        <option value="">Clean Toilet</option>
-        <option value="">Clean Bathroom</option>
-        <option value="">Water Plants</option>
-      </select>
-      <select class="w-select dropdown" name="dropdown">
-        <option value="">Select person to do chore...</option>
-        <option value="First">You</option>
-        <option value="Second">Vanessa</option>
-        <option value="Third">Terrance</option>
-      </select><a class="button chorebutton add-chore-button" href="chore-added.html">Add Chore</a>
-    </form>
-    <div class="w-form-done">
-      <p>Thank you! Your submission has been received!</p>
-    </div>
-    <div class="w-form-fail">
-      <p>Oops! Something went wrong while submitting the form :(</p>
-    </div>
-  </div>
+  <form id="addFriendForm" role="form" method="get" action="/add">
+		<h3>Add a friend</h3>
+	    <div class="form-group">
+	      <label for="chore">Name:</label>
+	      <input type="text" class="form-control" id="chore" placeholder="Chore" name="chore">
+	    </div>
+	    
+	   
+	    <input type="submit" id="submitBtn" class="btn btn-default" value="Add Chore"></input>
+	</form>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>
