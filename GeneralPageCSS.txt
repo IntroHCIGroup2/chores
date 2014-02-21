@@ -1,7 +1,0 @@
-TitleHeader: H1 Open Sans 400 Normal 38px
-DarkPurple: #8c00b3
-Light Purple: #ae6dcf
-Blue Text: #7370ff Open Sans 600 SemiBold 26px
-Green Text: #167500 Open Sans 400 Normal 20px
-Small Blue Circle: #6929ff, 40px radius, 3px width
-Large Orange Circle:#f08811, 200px radius, 10px
