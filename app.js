@@ -48,6 +48,8 @@ app.use(express.cookieParser('Intro HCI secret key'));
 app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.cookieParser());
+app.use(express.session());
 
 // development only
 if ('development' == app.get('env')) {
@@ -56,6 +58,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.get('/login', home.login);
 app.get('/home.handlebars', home.view);
 app.get('/scores.handlebars', scores.view);
 app.get('/add-choore.handlebars', addchore.view);

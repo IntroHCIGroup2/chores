@@ -44,11 +44,11 @@
     </div>
   </div>
   <h2>Current chores</h2>
-    {{#each currentchores}}
+    {{#each Roommates}}
   <div class="w-container">
-    <h3>{{name}}</h3><a class="button delete" href="#">X</a>
-    <img class="choreimage" src="{{imageURL}}" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">{{points}} pts.</a>
-    <img class="profilepictureforcurrent hoverZoomLink" src="{{roommate}}" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
+    <h3>{{user}}</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="{{Roommates}}" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">{{userpoints}} pts.</a>
+    <img class="profilepictureforcurrent hoverZoomLink" src="{{userpicture}}" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
     {{/each}}
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

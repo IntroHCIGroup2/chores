@@ -27,16 +27,10 @@
   <img class="loginpicture" src="images/icon_19395.png" width="150" alt="52fc5c8484f384267e000308_icon_19395.png">
   <h1>Chores</h1>
   <div class="w-form">
-    <form name="email-form" data-name="Email Form" data-redirect="/home">
+    <form name="email-form" role="form" method="get" action="login">
       <input class="w-input forminputs" type="text" placeholder="Email" name="email" data-name="Email"></input>
-      <input class="w-input forminputs" type="email" placeholder="Password" name="password" data-name="Password"></input><a class="button loginbutton" href="home.handlebars">login</a><a class="button signupbutton" href="sign-up.handlebars">New User?</a>
+      <input class="w-input forminputs" type="password" placeholder="Password" name="password" data-name="Password"></input><button type="submit" class="button loginbutton">Log in</button><a class="button signupbutton" href="sign-up.handlebars">New User?</a>
     </form>
-    <div class="w-form-done">
-      <p>Thank you! Your submission has been received!</p>
-    </div>
-    <div class="w-form-fail">
-      <p>Oops! Something went wrong while submitting the form :(</p>
-    </div>
   </div><a class="forgotlink" href="forgot-password.handlebars">Forgot your password? Click here.</a>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>

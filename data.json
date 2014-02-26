@@ -1,112 +1,179 @@
 {
-    "user": "Robert",
-    "userpoints": 1520,
-    "userpicture": "images/man.jpg",
-    "userchores":[
+    "Roommates":
+    [
         {
+        "id":0,
+        "user": "Cesar",
+        "userpoints": 1520,
+        "apartment": "Thugs Mansion",
+        "email": "cecisner@ucsd.edu",
+        "password": "group2",
+        "userpicture": "images/man.jpg",
+        "userchores":
+            
+            
+         [   
+            {
             
 			"name": "Vacuum",
             "imageURL": "images/icon_25405.png",
             "points": 100
 
-		},
-		{
+		      },
+		      {
 			"name": "Dishes",    
-        "imageURL":"images/icon_27380.png",
+            "imageURL":"images/icon_27380.png",
             "points": 120
 
-		}
+		      }
+         ]
+        },
+        {
+        "id":1,
+        "user": "Jaysen",
+        "userpoints": 1420,
+        "apartment": "Thugs Mansion",
+        "email": "jparmar@ucsd.edu",
+        "password": "group2",
+        "userpicture": "images/images.jpg",
+        "userchores":
+            
+            
+         [   
+            {
+            
+			"name": "Vacuum",
+            "imageURL": "images/icon_25405.png",
+            "points": 100
+
+		      },
+		      {
+			"name": "Dishes",    
+            "imageURL":"images/icon_27380.png",
+            "points": 120
+
+		      }
+         ]
+        },
+        {
+        "id":2,
+        "user": "Sarah",
+        "userpoints": 1420,
+        "apartment": "Thugs Mansion",
+        "email": "s4vu@ucsd.edu",
+        "password": "group2",
+        "userpicture": "images/woman.jpg",
+        "userchores":
+            
+            
+         [   
+            {
+            
+			"name": "it worked",
+            "imageURL": "images/icon_25405.png",
+            "points": 100
+
+		      },
+		      {
+			"name": "Dishes",    
+            "imageURL":"images/icon_27380.png",
+            "points": 120
+
+		      }
+         ]
+        }
         
     ],
     "chores": [
 		{
 			"name": "Vacuum",
-        "imageURL": "images/icon_25405.png"
+        "imageURL": "images/icon_25405.png",
+            "points": 120,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
 		{
 			"name": "Dishes",    
-        "imageURL":"images/icon_27380.png"	
+        "imageURL":"images/icon_27380.png",
+            "points": 120,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
         {
 			"name": "Mop",    
-        "imageURL":"images/icon_19395.png"	
+        "imageURL":"images/icon_19395.png",
+            "points": 120,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
         {
 			"name": "Broom",    
-        "imageURL":"images/icon_19395.png"	
+        "imageURL":"images/icon_19395.png",
+            "points": 120	,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
         {
 			"name": "Litter Box",    
-        "imageURL":"images/icon_18994.png"	
+        "imageURL":"images/icon_18994.png",
+            "points": 120	,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
         {
 			"name": "Clean Toilet",    
-        "imageURL":"images/icon_19395.png"	
+        "imageURL":"images/icon_19395.png",
+            "points": 120	,
+            "roommates": [ 
+                {
+                    "id": 0
+                }
+            ]
 
 		},
         {
 			"name": "Clean Bathroom",    
-        "imageURL":"images/icon_19395.png"	
+        "imageURL":"images/icon_19395.png",
+            "points": 120,
+            "roommates": [ 
+                {
+                    "id": 0
+                }	
+            ]
 
 		},
         {
 			"name": "Water Plants",    
-        "imageURL":"images/icon_19395.png"	
+        "imageURL":"images/icon_19395.png",
+            "points": 120,
+            "roommates": [ 
+                {
+                    "id": 0
+                }	
+                
+            ]
 
 		}
-    ],
-	"roommates": [
-        {
-            "roommate": "images/woman.jpg",
-            "name": "Vanessa",
-			"chore": "Clean Litterbox",
-        "imageURL": "images/icon_18994.png",
-            "points": 500
-
-		},
-		{
-			 "roommate": "images/images.jpg",
-            "name": "Terrance",
-			"chore": "Take Out Trash",
-        "imageURL": "images/icon_304.png",
-            "points": 1430
-
-		}
-    ],
-    "currentchores": [
-        {
-			"name": "Dishes",    
-        "imageURL":"images/icon_27380.png",
-        "roommate": "images/man.jpg",
-        "points": 120
-
-		},
-        {
-			"name": "Litterbox",    
-        "imageURL": "images/icon_18994.png",
-            "roommate": "images/woman.jpg",
-        "points": 200
-
-		},
-        {
-			"name": "Trash",    
-        "imageURL": "images/icon_304.png",
-            "roommate": "images/images.jpg",
-        "points": 100
-
-		},
-        {
-			"name": "Vacuum",    
-        "imageURL": "images/icon_25405.png",
-            "roommate": "images/man.jpg",
-        "points": 100
-
-		}
-       
     ]
+
 }
