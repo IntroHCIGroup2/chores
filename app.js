@@ -66,6 +66,7 @@ app.get('/current-chore.handlebars', currentchore.view);
 app.get('/userprofile.handlebars', userprofile.view);
 app.get('/settings.handlebars', settings.view);
 app.get('/sign-up.handlebars', signup.view);
+app.get('/addUser', signup.addRoommate);
 app.get('/forgot-password.handlebars', forgotpassword.view);
 app.get('/password-sent.handlebars', passwordsent.view);
 app.get('/join-a-home.handlebars', joinahome.view);
@@ -78,9 +79,12 @@ app.get('/about.handlebars', about.view);
 app.get('/help.handlebars', help.view);
 app.get('/chore-completed.handlebars', chorecompleted.view);
 app.get('/add', add.addChore);
+app.get('/changePassword', password.changePassword);
 
 // Example route
 // app.get('/users', user.list);
+app.post('/upload', userprofile.upload)
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
