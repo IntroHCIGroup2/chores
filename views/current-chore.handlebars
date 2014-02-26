@@ -32,7 +32,7 @@
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.handlebars">Home</a><a class="w-nav-link topnavopen" href="add-choore.handlebars">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.handlebars">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.handlebars">User Profile</a>
           <a
-          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
+          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="/">Log Out</a>
         </nav>
         <div class="w-nav-button topnav">
           <div class="w-icon-nav-menu"></div>
@@ -43,14 +43,32 @@
       </div>
     </div>
   </div>
-  <h2>Current chores</h2>
-    {{#each Roommates}}
+  <h2>Current Chores</h2>
   <div class="w-container">
-    <h3>{{user}}</h3><a class="button delete" href="#">X</a>
-    <img class="choreimage" src="{{Roommates}}" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">{{userpoints}} pts.</a>
-    <img class="profilepictureforcurrent hoverZoomLink" src="{{userpicture}}" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
+    <h3>Dishes</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_27380.png" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">120 pts.</a>
+    <img class="profilepictureforcurrent hoverZoomLink" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
-    {{/each}}
+  <div class="w-container">
+    <h3>Litter box</h3><a class="button delete" href="chore-delete-confirmation.html">X</a>
+    <img class="choreimage" src="images/icon_18994.png" width="150" alt="52fd3f6084f384267e0013e2_icon_18994.png">
+    <img class="profilepictureforcurrent user3" src="images/woman.jpg" width="50" height="50" alt="52fc7156739fe3c30f00033f_woman.jpg"><a class="button chore-points" href="#">200 pts.</a>
+  </div>
+  <div class="w-container">
+    <h3>Mow Lawn</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_12106.png" width="150" alt="52fd72f091b0b68d21000df7_icon_12106.png"><a class="button chore-points" href="#">220 pts.</a>
+    <img class="profilepictureforcurrent" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
+  </div>
+  <div class="w-container">
+    <h3>Trash</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_304.png" width="150" height="150" alt="52fd3f2684f384267e0013df_icon_304.png">
+    <img class="profilepictureforcurrent user2" src="images/images.jpg" width="50" height="50" alt="52fc715f739fe3c30f000341_images.jpg"><a class="button chore-points" href="#">100 pts.</a>
+  </div>
+  <div class="w-container">
+    <h3>Vacuum</h3><a class="button delete" href="#">X</a>
+    <img class="choreimage" src="images/icon_25405.png" width="150" alt="52fd2d9191b0b68d2100099d_icon_25405.png">
+    <img class="profilepictureforcurrent" src="images/man.jpg" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg"><a class="button chore-points" href="#">180 pts.</a>
+  </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

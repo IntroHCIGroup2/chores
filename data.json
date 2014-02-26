@@ -69,7 +69,7 @@
          [   
             {
             
-			"name": "it worked",
+			"name": "Vacuum",
             "imageURL": "images/icon_25405.png",
             "points": 100
 
@@ -87,7 +87,7 @@
     "chores": [
 		{
 			"name": "Vacuum",
-        "imageURL": "images/icon_25405.png",
+            "imageURL": "images/icon_25405.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Dishes",    
-        "imageURL":"images/icon_27380.png",
+            "imageURL":"images/icon_27380.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -109,7 +109,7 @@
 		},
         {
 			"name": "Mop",    
-        "imageURL":"images/icon_19395.png",
+            "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -120,7 +120,7 @@
 		},
         {
 			"name": "Broom",    
-        "imageURL":"images/icon_19395.png",
+            "imageURL":"images/icon_19395.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -131,7 +131,7 @@
 		},
         {
 			"name": "Litter Box",    
-        "imageURL":"images/icon_18994.png",
+            "imageURL":"images/icon_18994.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -142,7 +142,7 @@
 		},
         {
 			"name": "Clean Toilet",    
-        "imageURL":"images/icon_19395.png",
+            "imageURL":"images/icon_19395.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -153,7 +153,7 @@
 		},
         {
 			"name": "Clean Bathroom",    
-        "imageURL":"images/icon_19395.png",
+            "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -164,7 +164,7 @@
 		},
         {
 			"name": "Water Plants",    
-        "imageURL":"images/icon_19395.png",
+            "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {

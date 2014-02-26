@@ -32,7 +32,7 @@
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.handlebars">Home</a><a class="w-nav-link topnavopen" href="add-choore.handlebars">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.handlebars">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.handlebars">User Profile</a>
           <a
-          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
+          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="/">Log Out</a>
         </nav>
         <div class="w-nav-button topnav">
           <div class="w-icon-nav-menu"></div>
@@ -67,9 +67,9 @@
     </div>
   </div>
   
-    {{#each Roommates}}
+    {{#each roommates}}
   <div class="w-clearfix choreblock">
-    <img class="roommate1 smallcircle homepictures" src="{{userpicture}}" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg" id="roommate3">
+    <img class="roommate1 smallcircle homepictures" src="{{roommate}}" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg" id="roommate3">
     <img class="uchorepicture chorepicture" src="{{imageURL}}" width="75" height="75" alt="52fd3f2684f384267e0013df_icon_304.png">
     <a class="w-inline-block qclb" href="chore-completed.handlebars">
       <img class="completechore" src="images/icon_2181.png" alt="52fd574291b0b68d21000d13_icon_2181.png">
