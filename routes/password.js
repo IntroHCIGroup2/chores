@@ -11,4 +11,16 @@ exports.changePassword = function(req, res){
     
     
 	res.render('password', data);
-};
+}
+
+
+exports.changePassword = function(req, res) {
+
+	var roommateID = req.session.roommateID;
+	var newpassword = req.query.newpassword;
+	var oldpassword = req.query.oldpassword;
+	console.log("pw1 " + newpassword + " pw 2 " + oldpassword);
+		data.Roommates[roommateID].password = newpassword;
+        res.render('password',data);
+
+}

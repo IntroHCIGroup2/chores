@@ -28,19 +28,14 @@
     <div class="w-nav menucontainer" data-collapse="all" data-animation="default" data-duration="400"></div>
   </div>
   <h2>Create Account</h2>
-  <img class="addpicture" src="images/blank-profile-hi.png" width="159" height="150" alt="52fc623bac1481c20f00038a_blank-profile-hi.png"><a class="button addpicture addpicture-button" href="sign-up-picture.html">+</a>
-  <div class="w-form">
-    <form name="email-form" data-name="Email Form">
-      <input class="w-input forminputs" type="text" placeholder="Your Name" name="name" data-name="Name"></input>
-      <input class="w-input forminputs" type="email" placeholder="Email" name="your-email" data-name="Your Email"></input>
-      <input class="w-input forminputs" type="password" placeholder="Password" name="password" data-name="Password"></input><a class="button loginbutton" href="join-a-home.handlebars">Sign up</a>
-    </form>
-    <div class="w-form-done">
-      <p>Thank you! Your submission has been received!</p>
-    </div>
-    <div class="w-form-fail">
-      <p>Oops! Something went wrong while submitting the form :(</p>
-    </div>
+ 
+  <div class="w-form" >
+    <form name="email-form" data-name="Email Form" method="get" action="addUser">
+      <input class="w-input forminputs" type="text" placeholder="Your Name" name="user" data-name="Name"></input>
+      <input class="w-input forminputs" type="email" placeholder="Email" name="email" data-name="Your Email"></input>
+      <input class="w-input forminputs" type="password" placeholder="Password" name="password" data-name="Password"></input><button type="submit" class="button loginbutton" >Sign up</a>
+    </form> 
+    
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
