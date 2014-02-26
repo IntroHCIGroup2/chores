@@ -16,7 +16,7 @@ exports.upload = function(req, res) {
     
     var fs=require('fs');
     
-    console.log(req.files);
+    console.log(req.images);
     
 	fs.readFile(req.files.image.path, function (err, data) {
 

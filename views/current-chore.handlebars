@@ -46,10 +46,16 @@
   <h2>Current chores</h2>
     {{#each Roommates}}
   <div class="w-container">
-    <h3>{{user}}</h3><a class="button delete" href="#">X</a>
-    <img class="choreimage" src="{{Roommates}}" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png"><a class="button chore-points" href="#">{{userpoints}} pts.</a>
-    <img class="profilepictureforcurrent hoverZoomLink" src="{{userpicture}}" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
+      {{#each userchores}}
+    <h3>{{name}}</h3><a class="button delete" href="#">X</a>
+      
+    <img class="choreimage" src="{{imageURL}}" width="150" alt="52fd2ddb91b0b68d2100099e_icon_27380.png">
+      <img class="profilepictureforcurrent hoverZoomLink" src="{{userpicture}}" width="50" height="50" alt="52fc7129739fe3c30f00033e_man.jpg">
+      <a class="button chore-points" href="#">{{points}} pts.</a>
+      {{/each}}
+    
   </div>
+    
     {{/each}}
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>

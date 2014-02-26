@@ -15,13 +15,14 @@
             
          [   
             {
-            
+            "userpicture": "images/man.jpg",
 			"name": "Vacuum",
             "imageURL": "images/icon_25405.png",
             "points": 100
 
 		      },
 		      {
+            "userpicture": "images/man.jpg",
 			"name": "Dishes",    
             "imageURL":"images/icon_27380.png",
             "points": 120
@@ -43,16 +44,10 @@
             
          [   
             {
-            
-			"name": "Vacuum",
-            "imageURL": "images/icon_25405.png",
+            "userpicture": "images/images.jpg",
+			"name": "Trash",
+            "imageURL": "images/icon_304.png",
             "points": 100
-
-		      },
-		      {
-			"name": "Dishes",    
-            "imageURL":"images/icon_27380.png",
-            "points": 120
 
 		      }
          ]
@@ -71,16 +66,10 @@
             
          [   
             {
-            
-			"name": "it worked",
-            "imageURL": "images/icon_25405.png",
-            "points": 100
-
-		      },
-		      {
-			"name": "Dishes",    
-            "imageURL":"images/icon_27380.png",
-            "points": 120
+            "userpicture": "images/woman.jpg",
+			"name": "Litter Box",
+            "imageURL": "images/icon_18994.png",
+            "points": 200
 
 		      }
          ]
