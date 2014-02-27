@@ -32,7 +32,7 @@
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.handlebars">Home</a><a class="w-nav-link topnavopen" href="add-choore.handlebars">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.handlebars">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.handlebars">User Profile</a>
           <a
-          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="/">Log Out</a>
+          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
         </nav>
         <div class="w-nav-button topnav">
           <div class="w-icon-nav-menu"></div>
@@ -45,17 +45,17 @@
   </div>
   <div>
     <h2>Scores</h2>
-    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
   </div>
-  <h3>Robert - 1,520 pts</h3>
+    
+
   <div>
-    <img class="smallcircle" src="images/woman.jpg" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
+      {{#each Roommates}}
+    <img class="smallcircle" src="{{userpicture}}" width="75" height="75" alt="52fc7156739fe3c30f00033f_woman.jpg">
   </div>
-  <h4>Vanessa - 1,400 pts</h4>
+  <h4> {{user}} - {{userpoints}} pts</h4>
+    {{/each}}
   <div>
-    <img class="smallcircle" src="images/images.jpg" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg">
-  </div>
-  <h4>Terrance - 820 pts</h4>
+   
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

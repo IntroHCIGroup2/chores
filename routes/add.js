@@ -48,7 +48,7 @@ exports.addChore = function(req, res) {
                     "points": chorepoints
 					};
     
-    console.log(newChore);
+    console.log(userid4chore);
     
      data.Roommates[userid4chore].userchores.push(newChore);
     

@@ -15,13 +15,14 @@
             
          [   
             {
-            
+            "userpicture": "images/man.jpg",
 			"name": "Vacuum",
             "imageURL": "images/icon_25405.png",
             "points": 100
 
 		      },
 		      {
+            "userpicture": "images/man.jpg",
 			"name": "Dishes",    
             "imageURL":"images/icon_27380.png",
             "points": 120
@@ -43,16 +44,10 @@
             
          [   
             {
-            
-			"name": "Vacuum",
-            "imageURL": "images/icon_25405.png",
+            "userpicture": "images/images.jpg",
+			"name": "Trash",
+            "imageURL": "images/icon_304.png",
             "points": 100
-
-		      },
-		      {
-			"name": "Dishes",    
-            "imageURL":"images/icon_27380.png",
-            "points": 120
 
 		      }
          ]
@@ -71,26 +66,12 @@
             
          [   
             {
-            
-			"name": "Vacuum",
-            "imageURL": "images/icon_25405.png",
-            "points": 100
-
-		      },
-		      {
-			"name": "Dishes",    
-            "imageURL":"images/icon_27380.png",
-            "points": 120
-
-		      },
-             {
             "userpicture": "images/woman.jpg",
 			"name": "Litter Box",
             "imageURL": "images/icon_18994.png",
             "points": 200
 
 		      }
-             
          ]
         }
         
@@ -98,7 +79,7 @@
     "chores": [
 		{
 			"name": "Vacuum",
-            "imageURL": "images/icon_25405.png",
+        "imageURL": "images/icon_25405.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -109,7 +90,7 @@
 		},
 		{
 			"name": "Dishes",    
-            "imageURL":"images/icon_27380.png",
+        "imageURL":"images/icon_27380.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -120,7 +101,7 @@
 		},
         {
 			"name": "Mop",    
-            "imageURL":"images/icon_19395.png",
+        "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -131,7 +112,7 @@
 		},
         {
 			"name": "Broom",    
-            "imageURL":"images/icon_19395.png",
+        "imageURL":"images/icon_19395.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -142,7 +123,7 @@
 		},
         {
 			"name": "Litter Box",    
-            "imageURL":"images/icon_18994.png",
+        "imageURL":"images/icon_18994.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -153,7 +134,7 @@
 		},
         {
 			"name": "Clean Toilet",    
-            "imageURL":"images/icon_19395.png",
+        "imageURL":"images/icon_19395.png",
             "points": 120	,
             "roommates": [ 
                 {
@@ -164,7 +145,7 @@
 		},
         {
 			"name": "Clean Bathroom",    
-            "imageURL":"images/icon_19395.png",
+        "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {
@@ -175,7 +156,7 @@
 		},
         {
 			"name": "Water Plants",    
-            "imageURL":"images/icon_19395.png",
+        "imageURL":"images/icon_19395.png",
             "points": 120,
             "roommates": [ 
                 {
