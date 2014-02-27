@@ -44,8 +44,8 @@
     </div>
   </div>
   <div>
-      {{log currentUser}}
-    <h4>Hi {{Roommates.user}}! Check out what's been happening at home...</h4>
+      
+    <h4>Hi {{user}}! Check out what's been happening at home...</h4>
   </div>
   <div>
     <h5>Have you completed these chores yet?</h5>
@@ -54,8 +54,13 @@
           {{#each userchores}}
         <div>
           <div class="w-container homechore">
+<<<<<<< HEAD
                 <img class="uchorepicture" src="{{imageURL}}" width="75" height"75" alt="{{imageURL}}">
            <form name="chore-form" role="form" method="get" action="removeChore">
+=======
+                <img class="uchorepicture" src="{{imageURL}}" width="75" height="75" alt="{{imageURL}}">
+            <form name="chore-form" role="form" method="get" action="removeChore">
+>>>>>>> f9f03b699d17f3db16adaa80eb069311a6e95d39
                   <input class="w-input forminputs" type="text" placeholder={{name}} name=chore data-name="{{name}}" value={{name}}></input>
                   <button type="submit" class="button signupbutton">Finish this Chore</button>
             </form>
@@ -68,20 +73,19 @@
   </div>
   <div></div>
     <h4>Other users' chores go here in this section</h4>
+<<<<<<< HEAD
     {{#each Roommates}}
+=======
+    <!-- 
+    {{#each roommates}}
+>>>>>>> f9f03b699d17f3db16adaa80eb069311a6e95d39
   <div class="w-clearfix choreblock">
-    <img class="roommate1 smallcircle homepictures" src="{{userpicture}}" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg" id="roommate3">
-      {{#each userchores}}
+    <img class="roommate1 smallcircle homepictures" src="{{roommate}}" width="75" height="75" alt="52fc715f739fe3c30f000341_images.jpg" id="roommate3">
     <img class="uchorepicture chorepicture" src="{{imageURL}}" width="75" height="75" alt="52fd3f2684f384267e0013df_icon_304.png">
-    <a class="w-inline-block qclb" href="chore-completed.handlebars">
-      <img class="completechore" src="images/icon_2181.png" alt="52fd574291b0b68d21000d13_icon_2181.png">
-    </a>
     <h6 class="chore2">{{chore}}</h6>
-       {{/each}}
-    
   </div>
-    {{/each}}
-    
+    {{/each}}-->
+    </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
     <script type="text/javascript" src="js/test.js"></script>

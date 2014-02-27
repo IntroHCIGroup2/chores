@@ -30,11 +30,16 @@
   <h2>Join a Home</h2>
   <img class="homepicture" src="images/icon_293.png" width="159" height="150" alt="52fc651f84f384267e00034f_icon_293.png">
   <div class="w-form">
-    <form name="email-form" role="form" method="get" action="homelogin">
-      <input class="w-input forminputs" type="text" placeholder="Home Name" name="home" data-name="Home"></input>
-      <input class="w-input forminputs" type="password" placeholder="Password" name="homeppassword" data-name="homepassword"></input>
-    <button class="button loginbutton">Join home</button>
+    <form name="email-form" data-name="Email Form">
+      <input class="w-input forminputs" type="text" placeholder="Home Name" name="home-name" data-name="Home Name"></input>
+      <input class="w-input forminputs" type="password" placeholder="Password" name="password" data-name="Password"></input><a class="button loginbutton" href="home.handlebars">Join Home</a>
     </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
   </div><a class="button signupbutton" href="create-home.handlebars">Create home</a>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>

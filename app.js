@@ -74,7 +74,7 @@ app.get('/create-home.handlebars', createhome.view);
 app.get('/invite-to-household.handlebars', invitetohousehold.view);
 app.get('/invite-roommate.handlebars', inviteroommate.view);
 app.get('/home-settings.handlebars', homesettings.view);
-app.get('/password.handlebars', password.view);
+app.get('/password', password.changePassword);
 app.get('/about.handlebars', about.view);
 app.get('/help.handlebars', help.view);
 app.get('/removeChore', chorecompleted.removeChore);

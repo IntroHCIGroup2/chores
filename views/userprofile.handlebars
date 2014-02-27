@@ -32,7 +32,7 @@
         </a>
         <nav class="w-nav-menu topnavopen" role="navigation"><a class="w-nav-link topnavopen" href="home.handlebars">Home</a><a class="w-nav-link topnavopen" href="add-choore.handlebars">Add Chore</a><a class="w-nav-link topnavopen" href="current-chore.handlebars">Current Chores</a><a class="w-nav-link topnavopen" href="userprofile.handlebars">User Profile</a>
           <a
-          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="#">Log Out</a>
+          class="w-nav-link topnavopen" href="scores.handlebars">Scores</a><a class="w-nav-link topnav topnavopen" href="settings.handlebars">Settings</a><a class="w-nav-link topnavopen" href="/">Log Out</a>
         </nav>
         <div class="w-nav-button topnav">
           <div class="w-icon-nav-menu"></div>
@@ -45,20 +45,28 @@
   </div>
   <div class="w-clearfix">
     <h2>User Profile</h2>
+<<<<<<< HEAD
+    <img class="user" src="images/man.jpg" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
+=======
     <img class="user" src="{{userpicture}}" width="200" height="200" alt="52fc7129739fe3c30f00033e_man.jpg">
 
     <form method="post" action="upload"  enctype="multipart/form-data">
-  <input type='file' accept="image" capture name='image'>
+  <input type='file'name='image'>
   <input type="submit" class="loginbutton"/>
 </form>
+>>>>>>> 50dc2db9789182299e7a317401cfbc10a2064c9e
   </div>
-  <h3>{{user}} - {{userpoints}} pts</h3>
+  <h3>Robert - 1,520 pts</h3>
   <div>
-       {{#each userchores}}
-    <img class="smallcircle chorepictures" src="{{imageURL}}" width="75" height="75" alt="52fd2d9191b0b68d2100099d_icon_25405.png">
+    <img class="smallcircle chorepictures" src="images/icon_25405.png" width="75" height="75" alt="52fd2d9191b0b68d2100099d_icon_25405.png">
   </div>
-  <h4>{{name}} &nbsp;- {{points}} pts</h4>
-      {{/each}}
+  <h4>Vacuum &nbsp;- 100 pts</h4>
+  <div>
+    <img class="smallcircle chorepictures" src="images/icon_27380.png" width="75" height="75" alt="52fd2ddb91b0b68d2100099e_icon_27380.png">
+  </div>
+  <h4>Wash Dishes - 120 pts</h4>
+  <img class="smallcircle chorepictures" src="images/icon_12106.png" width="75" height="75" alt="52fd72f091b0b68d21000df7_icon_12106.png">
+  <h4>Mow Lawn - 220 pts</h4>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>

@@ -1,3 +1,4 @@
+// Get all of our friend data
 var data = require('../data.json');
 
 exports.view = function(req, res){
@@ -7,20 +8,21 @@ exports.view = function(req, res){
 
 exports.addRoommate = function(req, res) {
 
+	var parameters = req.query;
     var newRoommateID = data.Roommates.length;
 
-	var newRoommate = {
+	var newClass = {
 					"id": newRoommateID,
-					"user": req.query.user,
+					"user": parameters.user,
 					"userpoints": 0,
 					"home": "",
                     "homepassword": "",
-                    "email": req.query.email,
-                    "password": req.query.password,
+                    "email": parameters.email,
+                    "password": parameters.password,
                     "userpicture": "images/defaultpicture.jpg",
                     "userchores":[]
 					};
-    data.Roommates.push(newRoommate);
+    data.Roommates.push(newClass);
     req.query.id = newRoommateID;
     req.session.roommateID =  newRoommateID;
 	res.render('join-a-home', data.Roommates[newRoommateID]);
