@@ -19,7 +19,8 @@ exports.addChore = function(req, res) {
    //Prepare chore to be pushed to Database
    var newChoreName = {
        "name" : newChore,
-       "userpicture": data.Roommates[user].userpicture
+       //Right now this just adds the current user picture to the db
+       "userpicture": data.Roommates[user].currrentchore.userpicture
     }
    
 

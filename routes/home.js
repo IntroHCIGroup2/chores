@@ -7,7 +7,7 @@ exports.view = function(req, res) {
 	}
 	console.log(req.session.roommateID);
 	res.render('home',data.Roommates[user]);
-
+    
 }
 
 exports.login = function(req,res){

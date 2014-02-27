@@ -45,13 +45,25 @@
     </div>
   </div>
   <img class="addchoreimage" src="images/icon_17666.png" width="150" height="150" alt="52fd51bf91b0b68d21000c9a_icon_17666.png">
-  <form id="addFriendForm" role="form" method="get" action="/add">
 		<h3>Add Chore</h3>
       <br>
-	    <div class="form-group">
+      <form  id="addFriendForm" role="form" method="get" action="/add">
+	   <!-- <div class="form-group">
 	      <input type="text" class="w-input forminputs" id="chore" placeholder="Chore" name="chore">
           <input type="text" class="w-input forminputs" id="username" placeholder="Username" name="username">
-	    </div>
+	    </div>-->
+        
+          <select class="w-input forminputs" id={{name}} name={{name}} >
+          {{#each chores}}
+          <option id={{name}}>{{name}}</option>
+          {{/each}}
+          </select>
+          
+          <select class="w-input forminputs" id={{user}} name={{username}}>
+          {{#each Roommates}}
+          <option id={{user}}>{{user}}</option>
+          {{/each}}
+          </select>
 	    
 	   
 	    <input type="submit" id="submitBtn" class="button loginbutton app-button" value="Add Chore"></input>
