@@ -12,12 +12,16 @@ exports.changePassword = function(req, res) {
 	var newpassword = req.query.newpassword;
 	var oldpassword = req.query.oldpassword;
     
-        if(oldpassword == data.Roommates[roommateID].password){
+    console.log(newpassword);
+    console.log(oldpassword);
+    
+    
             data.Roommates[roommateID].password = newpassword;
-        }
+            console.log(data.Roommates[roommateID].password);
+        /*}
         else{
             //console log error message
-        }
+        }*/
         res.render('password',data);
 
 }

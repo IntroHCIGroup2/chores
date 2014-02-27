@@ -6,7 +6,7 @@ exports.view = function(req, res) {
 		res.render('./index');
 	}
 	console.log(req.session.roommateID);
-	res.render('home',data);
+	res.render('home',data.Roommates[user]);
     
     //.Roommates[user]
 

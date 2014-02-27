@@ -26,7 +26,7 @@ exports.addChore = function(req, res) {
 		}	
 
     }
-    
+     
     var chorename
     var choreimage;
     var chorepoints;

@@ -71,7 +71,15 @@
             "imageURL": "images/icon_18994.png",
             "points": 200
 
+		      },
+             {
+            "userpicture": "images/woman.jpg",
+			"name": "Litter Box",
+            "imageURL": "images/icon_18994.png",
+            "points": 200
+
 		      }
+             
          ]
         }
         

@@ -77,7 +77,7 @@ app.get('/home-settings.handlebars', homesettings.view);
 app.get('/password.handlebars', password.view);
 app.get('/about.handlebars', about.view);
 app.get('/help.handlebars', help.view);
-app.get('/chore-completed.handlebars', chorecompleted.view);
+app.get('/removeChore', chorecompleted.removeChore);
 app.get('/add', add.addChore);
 app.get('/changePassword', password.changePassword);
 
